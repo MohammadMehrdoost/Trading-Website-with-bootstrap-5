@@ -118,6 +118,21 @@
         width: 100%;
     }
 
+    .options {
+        width: 100% !important;
+    }
+    .box2{
+        border-width: 1px 0px 1px 0px !important;
+    }
+
+}
+
+.text-p {
+    color: rgba(128, 126, 152, 0.5);
+}
+
+.options {
+    width: 75%;
 }
 
 .darkblue {
@@ -185,9 +200,10 @@ li {
     margin-left: -10vw;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
+
 .mobile {
     margin-top: 7rem !important;
 }
@@ -201,25 +217,31 @@ body{
     backdrop-filter: blur(10px);
     animation-duration: 3s !important;
 }
-.bit-back:hover{
-    transform:translate(0px,5px);
+
+.bit-back:hover {
+    transform: translate(0px, 5px);
 }
-.box-white{
+
+.box-white {
     box-shadow: rgb(255 255 255 / 15%) 0px 0px 24px;
     border: 1px solid rgba(255, 255, 255, 0.25);
 }
-.box-red{
+
+.box-red {
     box-shadow: rgb(255 6 10 / 15%) 0px 0px 24px;
     border: 1px solid rgba(255, 6, 10, 0.25);
 }
-.box-Purple{
+
+.box-Purple {
     box-shadow: rgb(130 71 229 / 15%) 0px 0px 24px;
     border: 1px solid rgba(130, 71, 229, 0.25);
 }
-.box-green{
+
+.box-green {
     box-shadow: rgb(0 255 163 / 15%) 0px 0px 24px;
     border: 1px solid rgba(0, 255, 163, 0.25);
 }
+
 .box-org {
     box-shadow: rgb(255 102 0 / 15%) 0px 0px 24px;
     border: 1px solid rgba(255, 102, 0, 0.25);
@@ -232,4 +254,29 @@ body{
 
 .red {
     color: crimson;
+}
+
+.slide {
+    margin-top: 5rem !important;
+}
+
+.navbar {
+    background-color: #12131E;
+}
+.boxs{
+    border: 1px solid rgb(40, 40, 59);
+    box-shadow: rgb(105 102 255 / 10%) 0px 0px 40px;
+    overflow: hidden;
+    position: relative;
+
+}
+.box1{
+    --tw-border-opacity: 1;
+    border-color: rgba(40,40,59,var(--tw-border-opacity));
+}
+.box2{
+    border: solid rgba(40,40,59,1) 0px ;
+    border-right-width: 1px;
+    border-left-width: 1px;
+
 }
