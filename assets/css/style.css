@@ -124,11 +124,24 @@
     .box2{
         border-width: 1px 0px 1px 0px !important;
     }
-
+    .links{
+        width: 100% !important;
+    }
+    .link{
+        width: 50% !important;
+    }
 }
-
+.link{
+    width: 20%;
+}
+.links{
+    width: 50% !important;
+}
 .text-p {
-    color: rgba(128, 126, 152, 0.5);
+    color: rgba(128, 126, 152, 0.5) !important;
+}
+.text-head{
+    color: rgb(200, 199, 216) !important; 
 }
 
 .options {
@@ -187,8 +200,11 @@ li {
 .background {
     background: url(../images/wave.svg);
 }
-
-.navbar-toggler-icon {}
+/*  toggler-icon  */
+.navbar-toggler-icon {
+    background-color: rgb(35, 35, 52) !important;
+    padding: 1.25rem !important;
+}
 
 .back-vid {
     position: fixed;
@@ -213,8 +229,8 @@ body {
 }
 
 .bit-back {
-    background: url(../images/back-bit.svg) center center/cover #131322;
-    backdrop-filter: blur(10px);
+    box-shadow: rgb(105 102 255 / 0.9%) 0px 0px 40px !important;
+    background: url(../images/back-bit.svg) center center/cover transparent;
     animation-duration: 3s !important;
 }
 
@@ -257,7 +273,7 @@ body {
 }
 
 .slide {
-    margin-top: 5rem !important;
+    padding-top: 5rem !important;
 }
 
 .navbar {
@@ -278,5 +294,10 @@ body {
     border: solid rgba(40,40,59,1) 0px ;
     border-right-width: 1px;
     border-left-width: 1px;
+}
+hr{
+    height: 0.3rem;
+    border: 0 none;
+    background-color: rgba(128, 126, 152, 0.5);
 
 }
